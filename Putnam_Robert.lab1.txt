@@ -1,0 +1,33 @@
+Name: Robert Putnam
+1.) Birthday
+2.) sad
+3.) 58
+4.) love
+5.) 13
+im getting a different seeded from yours, but that could be for many reasons
+6.) Happy Birthday song to daddy sang in out to daddy sang in out to daddy sang in out to daddy.
+7.) sad sad sad sad sad sad sad sad sad sad sad sad sad sad sad sad sad sad sad sad
+8.) hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey 
+9.) little drummer boy who am the more i only the more i only the more i only the more i
+10.) The obvious problem is repetition, this is solved pretty easily by truncating the loop if you find a matching pattern
+11.) amore per una furtiva lagrima por que mas te necesito verte nunca me love love love love love love love
+12.) love love love love love love love love love love love love love love love love love love love love \
+13.) little drummer boy who am the more i only the more i only the more i only the more i
+14.) if one of the words is most often followed by a word that is already in the title it will cause a loop
+15.) So basically I just have it checking the word it added against the words already in the title, if it finds that
+the one that it just added is there it removes it and ends the loop
+16.) montana sacra ii symbolum nicenum
+17.) bob and now is this
+18.) I got the same one, the reason it might return the same thing is using the rand function to break ties.
+19.) left blank because of an indexing error in your questions
+20.) I really like its regex capabilities. I would have found this useful to build a script with it that I could have called to strip
+for a database application I was working on.
+21.) aside from ne and eq vs != and == which would give me an error, and elsif theres not really anything that bugged me. My main 
+frustration was the lack of a debugger, at least that I found, which would have made the initial hash building easier.
+I also feel that I would have been more comfortable doing this terminal through vim on linux, but decided to try Notepad++
+22.) I had little to no issues with the lab itself
+23.) I spent about 4 on trying to figure out what you wanted for song titles, then building it when I realized I didn't know how to read,
+about 2 learning the syntax and building experimental hashes, and about 1 trying to derust on regex and actually write the expression 
+this includes using the regex tester.
+24.) Sure, if I ever need to build a data base from an XML file, or create an XML file from data in an HTML file I will definitely use
+it because of how straight forward and light it feels. Anything regex worthy.
