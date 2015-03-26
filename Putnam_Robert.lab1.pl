@@ -29,29 +29,6 @@ my @questionArr = ("happy", "sad", "computer", "the");
 while($line = <INFILE>) {
 	
 	# This strips each line. by the conditions you gave. I find 52,759
-	# So I am happy I waited until after weds class to turn this in because
-	# you complained about my use of stack overflow.
-	# I believe the one you pulled up was my english checking one. I already
-	# had an expression that was working for some of it using /^w/ or something
-	# like that, but it was not doing exactly what I wanted. I ended up posting 
-	# out of frustration asking why my [^a-zA-Z0-9_' ]*$ wasn't matching what
-	# I was going for. I was looking at it and researching for around 15 minutes before
-	# I decided to go back to the hashing part after posting the question.
-	# It turns out that I had put the ^ inside the brackets which is negation instead of
-	# in front like what I wanted. I usually avoid Stack overflow but since we are trying
-	# new things I figured I would try it. I did not email you about it because of this sentance
-	# in the lab "You are encouraged to use any web
-	# tutorials and resources to learn Perl. Given the size of the class, I will not be able to debug your
-    # code for you. Please do not send panicked emails requesting I fix your bug for you. Allow yourself
-    # plenty of time, and use patience, perseverance, and the internet to debug your code."
-	# I didn't see anything wrong with forums especially since I wasn't just asking for the solution,
-	# I had already built most of the regex but I was blanking on why something did not work the way
-	# I thought it would. You mention you cannot post production code in a work environment but I 
-	# disagree, for this you wouldn't have known if I had posted foo<SEP>bar (foo) [foo] or a non-english
-	# bar. In my working experience if you are working alone and having issues debugging forums are a great
-	# place to talk with someone about your problems. Granted I have not had many jobs I have had to program
-	# but the two I did it wouldn't have mattered. If you would like to discuss this, or anything else, further
-	# email me and I would be happy to find the time to do so.
 	$line =~ s/.*>|([([\/\_\-:"`+=*].*)|(feat.*)|[?¿!¡\.;&\$@%#\\|]//g;
 	#this if checks if it is English, and if it is inserts into the hash.
 	if($line =~ m/^[a-zA-Z0-9_' ]*$/g){
